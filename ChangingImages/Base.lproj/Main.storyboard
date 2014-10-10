@@ -35,6 +35,15 @@
                                     <action selector="changeImage:" destination="vXZ-lx-hvc" eventType="valueChanged" id="Zhs-Vc-e9L"/>
                                 </connections>
                             </slider>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wu6-27-P20">
+                                <rect key="frame" x="283" y="535" width="35" height="30"/>
+                                <state key="normal" title="Load">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="loadImage:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="7Yb-hg-N7z"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
@@ -46,7 +55,9 @@
                             <constraint firstItem="Pkj-Zi-j3Q" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="10" id="WmR-4G-F6t"/>
                             <constraint firstItem="Pkj-Zi-j3Q" firstAttribute="leading" secondItem="lYS-7t-c1o" secondAttribute="leading" id="ZSt-gt-B86"/>
                             <constraint firstItem="Pkj-Zi-j3Q" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="13" id="eic-sk-27z"/>
+                            <constraint firstItem="Wu6-27-P20" firstAttribute="top" secondItem="K92-Pl-i4B" secondAttribute="bottom" constant="8" symbolic="YES" id="fJr-zw-wYK"/>
                             <constraint firstItem="Pkj-Zi-j3Q" firstAttribute="trailing" secondItem="lYS-7t-c1o" secondAttribute="trailing" id="uM3-2x-1fH"/>
+                            <constraint firstItem="Wu6-27-P20" firstAttribute="centerX" secondItem="K92-Pl-i4B" secondAttribute="centerX" id="umE-7s-hUy"/>
                         </constraints>
                     </view>
                     <connections>

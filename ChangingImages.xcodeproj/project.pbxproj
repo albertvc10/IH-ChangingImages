@@ -15,6 +15,7 @@
 		5054011719E7BEC400590A10 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5054011519E7BEC400590A10 /* LaunchScreen.xib */; };
 		5054012319E7BEC400590A10 /* ChangingImagesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5054012219E7BEC400590A10 /* ChangingImagesTests.m */; };
 		5054012D19E7C6DD00590A10 /* sadBatman.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5054012C19E7C6DD00590A10 /* sadBatman.jpg */; };
+		5097E53A19E7EAD0008734A3 /* UIImage+URLImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 5097E53919E7EAD0008734A3 /* UIImage+URLImage.m */; };
 		50C6B80C19E7D54600116C79 /* Fary.png in Resources */ = {isa = PBXBuildFile; fileRef = 50C6B80B19E7D54600116C79 /* Fary.png */; };
 /* End PBXBuildFile section */
 
@@ -43,6 +44,8 @@
 		5054012119E7BEC400590A10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5054012219E7BEC400590A10 /* ChangingImagesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChangingImagesTests.m; sourceTree = "<group>"; };
 		5054012C19E7C6DD00590A10 /* sadBatman.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sadBatman.jpg; sourceTree = "<group>"; };
+		5097E53819E7EAD0008734A3 /* UIImage+URLImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+URLImage.h"; sourceTree = "<group>"; };
+		5097E53919E7EAD0008734A3 /* UIImage+URLImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+URLImage.m"; sourceTree = "<group>"; };
 		50C6B80B19E7D54600116C79 /* Fary.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Fary.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -95,6 +98,8 @@
 				5054011319E7BEC400590A10 /* Images.xcassets */,
 				5054011519E7BEC400590A10 /* LaunchScreen.xib */,
 				5054010619E7BEC400590A10 /* Supporting Files */,
+				5097E53819E7EAD0008734A3 /* UIImage+URLImage.h */,
+				5097E53919E7EAD0008734A3 /* UIImage+URLImage.m */,
 			);
 			path = ChangingImages;
 			sourceTree = "<group>";
@@ -230,6 +235,7 @@
 				5054010F19E7BEC400590A10 /* ViewController.m in Sources */,
 				5054010C19E7BEC400590A10 /* AppDelegate.m in Sources */,
 				5054010919E7BEC400590A10 /* main.m in Sources */,
+				5097E53A19E7EAD0008734A3 /* UIImage+URLImage.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

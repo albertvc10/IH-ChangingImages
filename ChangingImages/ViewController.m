@@ -1,4 +1,6 @@
 #import "ViewController.h"
+#import "UIImage+URLImage.h"
+
 
 @interface ViewController ()
 
@@ -39,6 +41,15 @@
         theImage = [UIImage imageNamed:@"sadBatman.jpg"];
         self.fadingImage.image = theImage;
     }
+}
+
+- (IBAction)loadImage:(id)sender {
+    
+    
+    UIImage *image = [UIImage imageWithUrl:@"http://www.risasinmas.com/wp-content/uploads/2013/11/Quie-thor.jpg"];
+    
+    self.fadingImage.image = image;
+    
 }
 
 @end
