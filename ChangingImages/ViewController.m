@@ -1,14 +1,9 @@
-//
-//  ViewController.m
-//  ChangingImages
-//
-//  Created by Albert Villanueva Carreras on 10/10/14.
-//  Copyright (c) 2014 Albert Villanueva Carreras. All rights reserved.
-//
-
 #import "ViewController.h"
 
 @interface ViewController ()
+
+@property (weak, nonatomic) IBOutlet UISlider *slider;
+@property (weak, nonatomic) IBOutlet UIImageView *fadingImage;
 
 @end
 
@@ -16,12 +11,15 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+
+    
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (IBAction)changeAlpha:(id)sender {
+    
+    self.fadingImage.alpha = self.slider.value;
+    
+    
 }
 
 @end
