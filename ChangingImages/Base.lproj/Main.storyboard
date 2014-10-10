@@ -29,11 +29,20 @@
                                     <action selector="changeAlpha:" destination="vXZ-lx-hvc" eventType="valueChanged" id="VI2-z2-FfM"/>
                                 </connections>
                             </slider>
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="1" minValue="1" maxValue="100" translatesAutoresizingMaskIntoConstraints="NO" id="K92-Pl-i4B">
+                                <rect key="frame" x="24" y="497" width="552" height="31"/>
+                                <connections>
+                                    <action selector="changeImage:" destination="vXZ-lx-hvc" eventType="valueChanged" id="Zhs-Vc-e9L"/>
+                                </connections>
+                            </slider>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="Pkj-Zi-j3Q" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="2Xj-fl-BeE"/>
+                            <constraint firstItem="K92-Pl-i4B" firstAttribute="trailing" secondItem="lYS-7t-c1o" secondAttribute="trailing" id="5AN-6I-p04"/>
+                            <constraint firstItem="K92-Pl-i4B" firstAttribute="top" secondItem="lYS-7t-c1o" secondAttribute="bottom" constant="8" symbolic="YES" id="85c-Od-yMQ"/>
                             <constraint firstItem="lYS-7t-c1o" firstAttribute="top" secondItem="Pkj-Zi-j3Q" secondAttribute="bottom" constant="36" id="GjG-Y0-vKC"/>
+                            <constraint firstItem="K92-Pl-i4B" firstAttribute="leading" secondItem="lYS-7t-c1o" secondAttribute="leading" id="NlL-Df-0af"/>
                             <constraint firstItem="Pkj-Zi-j3Q" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="10" id="WmR-4G-F6t"/>
                             <constraint firstItem="Pkj-Zi-j3Q" firstAttribute="leading" secondItem="lYS-7t-c1o" secondAttribute="leading" id="ZSt-gt-B86"/>
                             <constraint firstItem="Pkj-Zi-j3Q" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="13" id="eic-sk-27z"/>
@@ -42,6 +51,7 @@
                     </view>
                     <connections>
                         <outlet property="fadingImage" destination="Pkj-Zi-j3Q" id="E25-sw-O8b"/>
+                        <outlet property="selectImageSlider" destination="K92-Pl-i4B" id="jwf-ob-2Gq"/>
                         <outlet property="slider" destination="lYS-7t-c1o" id="Fn2-62-cMo"/>
                     </connections>
                 </viewController>

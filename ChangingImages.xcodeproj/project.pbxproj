@@ -15,6 +15,7 @@
 		5054011719E7BEC400590A10 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5054011519E7BEC400590A10 /* LaunchScreen.xib */; };
 		5054012319E7BEC400590A10 /* ChangingImagesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5054012219E7BEC400590A10 /* ChangingImagesTests.m */; };
 		5054012D19E7C6DD00590A10 /* sadBatman.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5054012C19E7C6DD00590A10 /* sadBatman.jpg */; };
+		50C6B80C19E7D54600116C79 /* Fary.png in Resources */ = {isa = PBXBuildFile; fileRef = 50C6B80B19E7D54600116C79 /* Fary.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +43,7 @@
 		5054012119E7BEC400590A10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5054012219E7BEC400590A10 /* ChangingImagesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChangingImagesTests.m; sourceTree = "<group>"; };
 		5054012C19E7C6DD00590A10 /* sadBatman.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sadBatman.jpg; sourceTree = "<group>"; };
+		50C6B80B19E7D54600116C79 /* Fary.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Fary.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +86,7 @@
 			isa = PBXGroup;
 			children = (
 				5054012C19E7C6DD00590A10 /* sadBatman.jpg */,
+				50C6B80B19E7D54600116C79 /* Fary.png */,
 				5054010A19E7BEC400590A10 /* AppDelegate.h */,
 				5054010B19E7BEC400590A10 /* AppDelegate.m */,
 				5054010D19E7BEC400590A10 /* ViewController.h */,
@@ -204,6 +207,7 @@
 			files = (
 				5054011219E7BEC400590A10 /* Main.storyboard in Resources */,
 				5054011719E7BEC400590A10 /* LaunchScreen.xib in Resources */,
+				50C6B80C19E7D54600116C79 /* Fary.png in Resources */,
 				5054011419E7BEC400590A10 /* Images.xcassets in Resources */,
 				5054012D19E7C6DD00590A10 /* sadBatman.jpg in Resources */,
 			);
@@ -416,6 +420,7 @@
 				5054012819E7BEC400590A10 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5054012919E7BEC400590A10 /* Build configuration list for PBXNativeTarget "ChangingImagesTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +429,7 @@
 				5054012B19E7BEC400590A10 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
