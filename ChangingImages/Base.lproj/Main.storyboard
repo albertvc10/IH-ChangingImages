@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6245" systemVersion="14A379a" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6238"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="ufC-wZ-h7g">
             <objects>
-                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModuleProvider="" sceneMemberID="viewController">
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
                         <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
@@ -15,11 +16,40 @@
                     <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="sadBatman.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="Pkj-Zi-j3Q">
+                                <rect key="frame" x="26" y="33" width="548" height="390"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="390" id="Cpd-gz-5Y8"/>
+                                </constraints>
+                            </imageView>
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="1" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="lYS-7t-c1o">
+                                <rect key="frame" x="24" y="459" width="552" height="31"/>
+                                <connections>
+                                    <action selector="changeAlpha:" destination="vXZ-lx-hvc" eventType="valueChanged" id="VI2-z2-FfM"/>
+                                </connections>
+                            </slider>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Pkj-Zi-j3Q" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="2Xj-fl-BeE"/>
+                            <constraint firstItem="lYS-7t-c1o" firstAttribute="top" secondItem="Pkj-Zi-j3Q" secondAttribute="bottom" constant="36" id="GjG-Y0-vKC"/>
+                            <constraint firstItem="Pkj-Zi-j3Q" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="10" id="WmR-4G-F6t"/>
+                            <constraint firstItem="Pkj-Zi-j3Q" firstAttribute="leading" secondItem="lYS-7t-c1o" secondAttribute="leading" id="ZSt-gt-B86"/>
+                            <constraint firstItem="Pkj-Zi-j3Q" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="13" id="eic-sk-27z"/>
+                            <constraint firstItem="Pkj-Zi-j3Q" firstAttribute="trailing" secondItem="lYS-7t-c1o" secondAttribute="trailing" id="uM3-2x-1fH"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="fadingImage" destination="Pkj-Zi-j3Q" id="E25-sw-O8b"/>
+                        <outlet property="slider" destination="lYS-7t-c1o" id="Fn2-62-cMo"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
         </scene>
     </scenes>
+    <resources>
+        <image name="sadBatman.jpg" width="1000" height="665"/>
+    </resources>
 </document>

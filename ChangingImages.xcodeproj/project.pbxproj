@@ -14,6 +14,7 @@
 		5054011419E7BEC400590A10 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5054011319E7BEC400590A10 /* Images.xcassets */; };
 		5054011719E7BEC400590A10 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5054011519E7BEC400590A10 /* LaunchScreen.xib */; };
 		5054012319E7BEC400590A10 /* ChangingImagesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5054012219E7BEC400590A10 /* ChangingImagesTests.m */; };
+		5054012D19E7C6DD00590A10 /* sadBatman.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5054012C19E7C6DD00590A10 /* sadBatman.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		5054011C19E7BEC400590A10 /* ChangingImagesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChangingImagesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5054012119E7BEC400590A10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5054012219E7BEC400590A10 /* ChangingImagesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChangingImagesTests.m; sourceTree = "<group>"; };
+		5054012C19E7C6DD00590A10 /* sadBatman.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sadBatman.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 		5054010519E7BEC400590A10 /* ChangingImages */ = {
 			isa = PBXGroup;
 			children = (
+				5054012C19E7C6DD00590A10 /* sadBatman.jpg */,
 				5054010A19E7BEC400590A10 /* AppDelegate.h */,
 				5054010B19E7BEC400590A10 /* AppDelegate.m */,
 				5054010D19E7BEC400590A10 /* ViewController.h */,
@@ -202,6 +205,7 @@
 				5054011219E7BEC400590A10 /* Main.storyboard in Resources */,
 				5054011719E7BEC400590A10 /* LaunchScreen.xib in Resources */,
 				5054011419E7BEC400590A10 /* Images.xcassets in Resources */,
+				5054012D19E7C6DD00590A10 /* sadBatman.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
